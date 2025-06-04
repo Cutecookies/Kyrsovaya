@@ -16,6 +16,7 @@ public:
     std::string toString() const;
     int getHours() const;
     int getMinutes() const;
+    void clearTime();
 };
 
 #endif // TIME_H

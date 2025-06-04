@@ -42,3 +42,8 @@ int Time::getHours() const {
 int Time::getMinutes() const {
     return minutes;
 }
+
+void Time::clearTime() {
+    minutes = 0;
+    hours = 0;
+}
